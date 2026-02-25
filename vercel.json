@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd generated-app/web && npm install && npm run build",
-  "outputDirectory": "generated-app/web/dist",
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-}
