@@ -1,0 +1,9 @@
+{
+  "name": "underwriting-demo-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev"
+  }
+}

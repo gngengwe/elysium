@@ -1,0 +1,14 @@
+{
+  "name": "underwriting-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "uw-ai": "./src/cli.mjs"
+  },
+  "scripts": {
+    "start": "node ./src/cli.mjs"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "underwriting-demo-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@electric-sql/pglite": "^0.2.0"
+  }
+}
